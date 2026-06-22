@@ -1,5 +1,5 @@
 # From Jet Engines to Einstein: The Scalable Power of Relational Calculus Features
-**A Side View on the Technology Behind the ODSA Breakthrough... no ML, no Moving Parts...**
+**A Side View on the Technology Behind the ODSA Breakthrough... no ML, no Moving Parts, Pure Relational Calculus...**
 
 ### The Green AI Achievement – A Tale of Two Normalizations
 Our ODSA model passed every functional gate of the Green AI Challenge: a turbofan prognostic model that runs entirely on a $2 microcontroller, using only 11 sensors, with zero cloud and offline data dependencies, and beats all accuracy targets under the binding fleet-wide protocol. The model is 0.4 MFLOPs, 10k parameters, and 41 KB of storage—so tiny it literally fits in the idle cycles of a motor controller. But the real story is not the size; it’s *what it replaces*.
