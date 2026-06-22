@@ -1,8 +1,8 @@
 # From Jet Engines to Einstein: The Scalable Power of Relational Calculus Features
-**An Investor Brief on the Technology Behind the ODSA Breakthrough**
+**A Side View on the Technology Behind the ODSA Breakthrough**
 
 ### The Green AI Achievement – A Tale of Two Normalizations
-Our ODSA model just became the first solution to pass every functional gate of the Green AI Challenge: a turbofan prognostic model that runs entirely on a $2 microcontroller, using only 11 sensors, with zero cloud dependency, and beats all accuracy targets under the binding fleet-wide protocol. The model is 0.4 MFLOPs, 10k parameters, and 41 KB of storage—so tiny it literally fits in the idle cycles of a motor controller. But the real story is not the size; it’s *what it replaces*.
+Our ODSA model passed every functional gate of the Green AI Challenge: a turbofan prognostic model that runs entirely on a $2 microcontroller, using only 11 sensors, with zero cloud and offline data dependencies, and beats all accuracy targets under the binding fleet-wide protocol. The model is 0.4 MFLOPs, 10k parameters, and 41 KB of storage—so tiny it literally fits in the idle cycles of a motor controller. But the real story is not the size; it’s *what it replaces*.
 
 The benchmark’s own baseline, the Zheng LSTM, earned its place as an industrial standard by adding a single, dominant trick: **Z-score statistical normalization**. Before feeding sensor data into the neural network, every value is shifted and scaled by the global mean and standard deviation of the training set. That statistical makeup is, to this day, the most powerful tool the industry has for taming multi-regime sensor drift. It works, but it comes with a heavy price: you must pre-compute those statistics from an entire fleet’s history, you must store them forever, and they become invalid the moment the operating envelope shifts beyond what was seen during training. It’s a probabilistic mask painted over raw data.
 
@@ -103,8 +103,3 @@ This is the scalable power of relational calculus features. They are not limited
 ### The Moats and the Opportunity
 Our competitive advantage is not a specific model architecture or a one-off statistical trick. It’s a *design methodology*—the ability to look at any physical system, decompose its governing trade-offs, and encode them into a handful of online-computable, physically normalized features. The result is AI that understands the physics from day one, learns faster, generalizes better, and fits on a chip.
 
-We’ve proven it on the most challenging turbofan benchmark, explicitly beating the reigning statistical normalization champion (the Zheng baseline) with a purely deterministic physical normalization. We’ve proven it again on the most celebrated physics test of the 20th century, deriving the GPS clock correction with nothing but effort ratios. The pattern is unmistakable.
-
-What we need now is capital to turn this methodology into a product. The mathematical blueprint is complete, and the edge-controller logic is validated. But to bring this universal physics engine to market, we must build the software factory that can apply it systematically across industries—developing the intent-driven toolchain that allows engineers to map their own machines into the relational calculus framework without needing a PhD in both thermodynamics and AI. That’s the scaling bottleneck, and that’s what your investment will unlock.
-
-We invite you to join us in replacing the era of statistical guesswork with an era of deterministic, physics-aware intelligence—from microcontrollers to satellites.
